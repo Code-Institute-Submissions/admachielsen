@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/portret.css" type="text/css" />
+     <link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+        <a class="navbar-brand" href="newindex.html">Ad Machielsen</a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+     <ul class="nav navbar-nav navbar-right"> 
+              <li>
+                <a href="landschappen.html">
+                  <p>Landschappen</p>
+                </a>
+              </li>
+              <li>
+                <a href="paarden.html">
+                  <p>Paarden</p>
+                </a>
+              </li>
+              <li>
+                <a href="honden.html">
+                  <p>Honden</p>
+                </a>
+              </li>
+              <li>
+                <a href="stilleven.html">
+                  <p>Stilleven</p>
+                </a>
+              </li>
+              <li>
+                <a href="portret.html">
+                  <p>Portret</p>
+                </a>
+              </li>
+               <li>
+                <a href="vogel.html">
+                  <p>Vogel</p>
+                </a>
+              </li>
+              <li>
+                <a href="contact.html">
+                  <p>Contact</p>
+                </a>
+              </li>
+            </ul>
+
+      </div>
+      <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+
+
+        <!-- Slider -->
+        
+            
+            
+               
+                    <!-- Top part of the slider -->
+            
+                        <div class="mobile">
+                            <div class="carousel slide" id="myCarousel">
+                                <!-- Carousel items -->
+                                <div class="carousel-inner">
+                                    <div class="active item" data-slide-number="0">
+                                        <img src="images/portretten/20181022_144350.jpg"></div>
+
+                                    <div class="item" data-slide-number="1">
+                                        <img src="images/portretten/20181022_144358.jpg"></div>
+
+                                    <div class="item" data-slide-number="2">
+                                        <img src="images/portretten/20181022_144943.jpg"></div>
+
+                                    <div class="item" data-slide-number="3">
+                                        <img src="images/portretten/20181022_180216.jpg"></div>
+
+                                    <div class="item" data-slide-number="4">
+                                        <img src="images/portretten/20181022_145348.jpg"></div>
+
+                                    <div class="item" data-slide-number="5">
+                                        <img src="images/portretten/20181022_145447.jpg"></div>
+                                    
+                                   
+                                </div>
+                                <!-- Carousel nav -->
+                                <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                    <span class="glyphicon glyphicon-chevron-left"></span>
+                                </a>
+                                <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                    <span class="glyphicon glyphicon-chevron-right"></span>
+                                </a>
+                            </div>
+                   
+          
+            
+           
+            <!--/Slider-->
+ 
+
+    
+
+
+       
+                
+
+  
+
+ <div class="tekst container">
+
+      <div class="col-sm-12">
+        <div class="h1">
+          <h1>Portret</h1>
+        </div>
+        <hr>
+        <div class="text">
+          <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+            ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+            delenit augue duis dolore te feugait nulla facilisi.</p>
+        </div>
+      </div>
+      <hr>
+       <div class=" text-center">
+        <div class="contactbox">
+        <p>
+          <input type="submit" onclick="location.href='newindex.html';" value="Terug" class="submit" />
+        </p>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <div class="container">
+
+      <div class="row text-center">
+        <p>Copyright © 2018 copyright: ad.machielsen.nl</p>
+      </div>
+
+    </div>
+  </div>
+ </div>
+ 
+   <script>
+         jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000
+        });
+ 
+        //Handles the carousel thumbnails
+        $('[id^=carousel-selector-]').click(function () {
+        var id_selector = $(this).attr("id");
+        try {
+            var id = /-(\d+)$/.exec(id_selector)[1];
+            console.log(id_selector, id);
+            jQuery('#myCarousel').carousel(parseInt(id));
+        } catch (e) {
+            console.log('Regex failed!', e);
+        }
+    });
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+   </script>
+   
+   
+   <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+ <section id="desktop">
+    <div class="col-sm-6">
+      <div class="col-sm-12" id="topfotoreeks">
+        <div class="col-sm-3">
+          <img id="1" class="thumb normal" src="images/portretten/20181022_144350.jpg" alt="" onmouseover="preview(this)" />
+        </div>
+        <div class="col-sm-3">
+          <img id="2" class="thumb normal" src="images/portretten/20181022_144358.jpg" alt="" onmouseover="preview(this)" />
+        </div>
+        <div class="col-sm-3">
+          <img id="3" class="thumb normal" src="images/portretten/20181022_145348.jpg" alt="" onmouseover="preview(this)" />
+        </div>
+        <div class="col-sm-3">
+          <img id="4" class="thumb normal" src="images/portretten/20181022_180216.jpg" alt="" onmouseover="preview(this)" />
+        </div>
+      </div>
+     
+      <div class="col-sm-12" id="fotoreeks">
+          
+        <div class="col-sm-3">
+          <img id="5" class="thumb normal" src="images/portretten/20181022_144943.jpg" alt="" onmouseover="preview(this)" />
+        </div>
+        <div class="col-sm-3">
+          <img id="6" class="thumb normal" src="images/portretten/20181022_145447.jpg" alt="" onmouseover="preview(this)" />
+        </div>
+         <div class="col-sm-3">
+        </div>
+        <div class="col-sm-3">
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <img id="0" class="preview normal" src="images/portretten/20181022_144350.jpg" alt="preview" /><br />
+    </div>
+    <div class="tekst container">
+
+      <div class="col-sm-12">
+        <div class="h1">
+          <h1>Portretten</h1>
+        </div>
+        <hr>
+        <div class="text">
+          <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+            ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril
+            delenit augue duis dolore te feugait nulla facilisi.</p>
+        </div>
+      </div>
+      <hr>
+       <div class=" text-center">
+        <div class="contactbox">
+        <p>
+          <input type="submit" onclick="location.href='newindex.html';" value="Terug" class="submit" />
+        </p>
+        </div>
+        </div>
+    </div>
+    <div class="copyright">
+    <div class="container">
+
+      <div class="row text-center">
+        <p>Copyright © 2018 copyright: ad.machielsen.nl</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  </section>
+  <script>
+    var lastImg = 1; // Set initial thumbnail and preview document.getElementById(0).src =
+    // document.getElementById(lastImg).src;
+    document.getElementById(lastImg).className = "thumb selected";
+
+    function preview(img) {
+      document.getElementById(lastImg).className = "thumb normal";
+      img.className = "thumb selected";
+      document.getElementById(0).src = img.src;
+      lastImg = img.id
+    }
+  </script>
+</body>

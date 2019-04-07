@@ -1,0 +1,144 @@
+
+
+.col-md-6 {
+    padding:0px;
+}
+
+@media only screen and (min-width: 600px) {
+.mobile {
+   
+    display:none;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #desktop {
+        display:none;
+    }
+}
+
+
+
+.hide-bullets {
+    list-style:none;
+    margin-left: -40px;
+    margin-top:20px;
+}
+
+.thumbnail {
+    padding: 0;
+}
+
+.carousel-inner>.item>img, .carousel-inner>.item>a>img {
+    width: 100%;
+}
+
+
+.navbar.navbar-inverse {
+    background-color: #000000;
+    border: none;
+    font-family: 'Laila', serif;
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    font-style: italic;
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Tangerine', cursive;
+    color: gold;
+
+}
+
+.h1 {
+    text-align: center;
+}
+
+
+
+#desktop {
+    padding-top: 5%;
+}
+
+#fotoreeks {
+    padding-top: 5%;
+}
+.preview {
+
+width: 100%;
+/*width: 640px;*/
+/*height: 360px;*/
+}
+
+.thumb {
+  width: 120%;  
+/*width: 110px;*/
+margin-right: 1px;
+}
+
+.normal {
+border: 1px solid #000000; }
+
+.selected {
+border: 1px solid #000000;;
+}
+
+.text {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Cardo', serif;
+    font-weight: 400em;
+    vertical-align: 15px;
+    word-spacing: 1.5px;
+    color: gray;
+    padding-bottom: 15px;
+    opacity: 1;
+    transition: opacity 4s linear;
+}
+
+.h1 h1 {
+    font-family: Tangerine;
+    font-size: 40px;
+    font-weight: 550;
+    text-transform: none;
+    letter-spacing: 0px;
+    text-decoration: none;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 1em 0 .5em;
+    color: #b19b57;
+    font-style: italic;
+}
+
+
+
+
+
+
+.contactbox input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: white;
+    border: 3px solid #555;
+    font-size: 18px;
+}
+
+input:hover {
+    background-color: gray;
+    color: white;
+}
+
+.tekst {
+    padding-bottom: 40px;
+}
+
+.copyright {
+    background-color: #f0f0f0;
+    
+}
+
+.copyright p {
+    font-size: 12px;
+    padding: 15px 0 10px 0;
+}
