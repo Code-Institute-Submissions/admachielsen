@@ -71,7 +71,7 @@
     display: inline-block;
     padding: 10px 25px;
     color: white;
-    background-color: #0000000f;
+    background-color: transparent;
     opacity: 1;
     border: solid 3px black;
     text-align: center;
