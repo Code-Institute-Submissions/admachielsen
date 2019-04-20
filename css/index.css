@@ -329,6 +329,10 @@
     transition: opacity 4s linear;
 }
 
+.mobile input {
+    background-color: #808080;
+}
+
 
 
 .contact-section {
