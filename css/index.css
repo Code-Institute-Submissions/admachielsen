@@ -72,7 +72,7 @@
     padding: 10px 25px;
     color: white;
     background-color: transparent;
-    opacity: 1;
+    opacity: 0;
     border: solid 3px black;
     text-align: center;
     cursor: pointer;
