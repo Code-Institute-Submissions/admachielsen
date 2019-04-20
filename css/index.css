@@ -82,7 +82,6 @@
 }
 
 .hero-text button:hover {
-    background-color: #ddd;
     color: black;
 }
 
@@ -186,8 +185,7 @@
 }
 
 .mobile {
-        background-color: #555;
-
+    background-color: #fff;
 }
 
 .underblock {
@@ -204,9 +202,9 @@
 }
 
 .diensten h1 {
-    padding-top: 7%;
+    padding-top: 0%;
     font-family: Tangerine;
-    font-size: 2em;
+    font-size: 33px;
     font-weight: 550;
     text-transform: none;
     letter-spacing: 0px;
@@ -243,7 +241,8 @@
     font-size: 22px;
     /*font-size: 20px;*/
     text-align: center;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Playfair Display', serif;
+    /*font-family: 'Tangerine', cursive;*/
     /*font-family: 'lora,serif';*/
     /*font-family: 'Cardo', cursive;*/
     font-weight: 400em;
@@ -317,10 +316,10 @@
 
 .p {
     /*font-size: 20px;*/
-    font-size: 25px;
+    font-size: 18px;
     text-align: center;
     /*font-family: 'Cardo', serif;*/
-    font-family: 'Tangerine', cursive;
+    font-family: 'Playfair Display', serif;
     font-weight: 400em;
     vertical-align: 15px;
     word-spacing: 1.5px;
@@ -392,6 +391,11 @@ input:hover {
     background-color: black;
 }
 
+.fa-arrow-circle-up:before {
+    content: "\f0aa";
+    color: gainsboro;
+}
+
 /*#footer*/
 
 .contactformulier input {
@@ -410,6 +414,8 @@ footer {
     background-color: #222222;
     padding-top: 60px;
     text-align: center;
+    color: #808080;
+    padding-bottom: 20px;
 }
 
 footer ul {
@@ -417,6 +423,13 @@ footer ul {
     margin: 0 auto;
     display: inline;
     padding-top: 50px;
+}
+
+.textwidget p {
+    font-family: Tangerine;
+    font-size: 25px;
+    font-style: italic;
+    color: silver;
 }
 
 .ib {
@@ -427,8 +440,23 @@ footer ul {
     float: left;
 }
 
+.menu_footer ul li a {
+    color:#808080;
+}
+
+.footer_contact .contact-details a {
+    color: #909090;
+}
+
+.footer_contact .contact-details i {
+    color: #909090;
+}
+
+.footer_social .socials a {
+    color: #333;
+}
 footer ul li a {
-    color: #b1aca1;
+    color: #333;
     padding: 20px;
 }
 
@@ -467,7 +495,12 @@ footer ul li a:hover {
 }
 
 
-
+.menu_footer ul {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 
 
