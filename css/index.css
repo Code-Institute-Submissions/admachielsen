@@ -497,6 +497,22 @@ footer ul li a:hover {
     padding-right: 10px;
 }
 
+.fa-facebook:before {
+    color:#808080;
+}
+
+.fa-instagram:before {
+    color: #808080;
+}
+
+.footer_links .links span {
+    color: silver;
+}
+
+.ons h5 {
+    color: silver;
+}
+
 .footer-top a {
     color: #FFF;
     text-decoration: none;
