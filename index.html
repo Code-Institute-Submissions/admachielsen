@@ -126,11 +126,11 @@
               
 <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
 <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
-              <h4 class="mySlides"> Ad Machielsen (1948) geboren en getogen te Prinsenbeek viel op peuterleeftijd op met zijn uniek tekentalent. Na het doorlopen van de basis- en middelbare school ging ad naar de kunstacademie st.Joost in Breda waar hij hoopte zich te ontwikkelen
-                tot realistisch kunstschilder. Eenmaal op de St. Joost werd ad blootgesteld aan heel veel lessen over de moderne kunst en met dronken leraren voor de klas, hierdoor besloot ad zijn opleiding niet af te maken en ging vervolgens les vol
-                volgen bij kunstschilder Ad Michielsen en Cornelis le Maire, waar hij zich heeft ontwikkelt tot de schilder die hij nu is.</h4>
+            <div class="slicker"></div>
+              <h4 class="mySlides"> "Schilderen is een kwestie van kijken"</h4>
                  <h4 class="mySlides"> "Je moet niet denken dat je het kunt schilderen, maar er plezier in hebben en blijven leren"</h4>
                  <h4 class="mySlides"> "Een schilderij moet schilderachtig zijn"</h4>
+                 </div>
             </div>
           </div>
         </div>
@@ -144,8 +144,7 @@
         </div>
       </div>
       <hr>
-    </div>
-
+  
 
   </section>
 
@@ -782,7 +781,20 @@ function visableDivs(n) {
   }
   x[slideIndex-1].style.display = "block"; 
 }
-  </script>
+ </script>
+
+<script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  $('.slicker').slick({
+  rtl: true,
+  arrows: false,
+  autoplay: true
+});
+});
+</script>
 </body>
 
 </html>
