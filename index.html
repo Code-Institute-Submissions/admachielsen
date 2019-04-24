@@ -538,7 +538,7 @@
      <div class ="row">
        <div class="col-xs-12">
       <div class="screen-reader-response">
-      <form enctype="text/plain" method="get" action="MAILTO:g.machielsen@gmail.com">
+      <form enctype="text/plain" method="get" name="contact_form" action="contactform.php">
        
         <p>
           <label> Jouw naam
@@ -792,6 +792,16 @@ $(document).ready(function(){
   rtl: true
 });
 });
+
+
+
+
+var frmvalidator  = new Validator("contactform");
+frmvalidator.addValidation("name","req","Please provide your name");
+frmvalidator.addValidation("email","req","Please provide your email");
+frmvalidator.addValidation("email","email",
+  "Please enter a valid email address");
+</script>
 </script>
 </body>
 
