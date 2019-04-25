@@ -123,7 +123,20 @@
 }
 
 
+.item h4 {
+    display: block !important;
+        margin-top: 25px;
 
+}
+
+.carousel-control.right {
+      background-image: linear-gradient(to right,rgba(0,0,0,.0001) 0,rgba(255, 255, 255, 0.5) 100%)!important;
+}
+
+.carousel-control.left {
+     background-image: linear-gradient(to left
+     ,rgba(0,0,0,.0001) 0,rgba(255, 255, 255, 0.5) 100%)!important;
+}
 .fotobox {
     padding-bottom: 23px;
     padding-left: 10px;
@@ -339,12 +352,29 @@
     transition: opacity 4s linear;
 }
 
+.w3-display-left {
+    margin-right: 100px;
+}
+
+.w3-display-right {
+    margin-left: 100px;
+}
+
+.Slider {
+    height: 360px;
+}
 .mobile input {
     background-color: #808080;
     border: none;
 }
 
+.w3-display-right {
+    font-size: 25px!important;
+}
 
+.w3-display-left {
+    font-size: 25px!important;
+}
 
 .contact-section {
     background-color: white;

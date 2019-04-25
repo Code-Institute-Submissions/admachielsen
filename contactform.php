@@ -1,4 +1,18 @@
 <?php
+$servername = "gijsmachielsen";
+$username = "username";
+$password = "password";
+$db = "dbname";
+// Create connection
+$conn = mysqli_connect($servername, $username, $password,$db);
+// Check connection
+if (!$conn) {
+   die("Connection failed: " . mysqli_connect_error());
+}
+echo "Connected successfully";
+
+
+
 $errors = '';
 $myemail = 'g.machielsen@gmail.com';//<-----Put Your email address here.
 if(empty($_POST['name'])  ||
