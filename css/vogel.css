@@ -17,6 +17,9 @@
 }
 
 
+.mobile p {
+    font-size: 15px;
+}
 
 .hide-bullets {
     list-style:none;

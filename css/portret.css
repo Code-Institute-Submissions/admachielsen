@@ -1,4 +1,6 @@
-
+.mobile p {
+    font-size: 15px;
+}
 
 .col-md-6 {
     padding:0px;
